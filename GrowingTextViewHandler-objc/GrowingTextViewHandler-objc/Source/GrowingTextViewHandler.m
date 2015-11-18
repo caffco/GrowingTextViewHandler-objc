@@ -60,9 +60,11 @@ static NSInteger kMaximumNumberOfLines = INT_MAX;
   if (self.heightConstraint.constant != verticalAlignmentConstant) {
     [self updateVerticalAlignmentWithHeight:verticalAlignmentConstant animated:animated];
   }
+  /*
   if (textViewNumberOfLines <= self.maximumNumberOfLines) {
     [self.growingTextView setContentOffset:CGPointZero animated:YES];
   }
+  */
 }
 
 #pragma mark - Private Helpers
